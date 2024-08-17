@@ -1,0 +1,91 @@
+TS_ESCOLA,,,,
+,,,,
+Variável,Tipo,Tamanho,Descrição,Código de Preenchimento
+ID_EXAME_ANA,Num,4,Ano da ANA,
+ID_REGIAO,Num,1,Código da Região,1 - Norte
+,,,,2 - Nordeste
+,,,,3 - Sudeste
+,,,,4 - Sul
+,,,,5 - Centro-Oeste
+ID_UF,Num,2,Código da Unidade da Federação,11-RO
+,,,,12-AC
+,,,,13-AM
+,,,,14-RR
+,,,,15-PA
+,,,,16-AP
+,,,,17-TO
+,,,,21-MA
+,,,,22-PI
+,,,,23-CE
+,,,,24-RN
+,,,,25-PB
+,,,,26-PE
+,,,,27-AL
+,,,,28-SE
+,,,,29-BA
+,,,,31-MG
+,,,,32-ES
+,,,,33-RJ
+,,,,35-SP
+,,,,41-PR
+,,,,42-SC
+,,,,43-RS
+,,,,50-MS
+,,,,51-MT
+,,,,52-GO
+,,,,53-DF
+ID_MUNICIPIO¹,Num,7,Código do Município,
+ID_ESCOLA¹,Num,8,Código da Escola,
+ID_AREA,Num,1,Área,1 - Capital
+,,,,2 - Interior
+ID_DEPENDENCIA_ADM,Num,1,Dependência Administrativa,1 - Federal
+,,,,2 - Estadual
+,,,,3 - Municipal
+,,,,4 - Privada
+ID_LOCALIZACAO,Num,1,Localização,1 - Urbana
+,,,,2 - Rural
+PC_FORMACAO_DOCENTE,Num,5,"Indicador de Adequação da Formação Docente (Informação referente ao Grupo 1, para os Anos Iniciais do EF)",
+NIVEL_SOCIO_ECONOMICO,Num,2,Nível socioecônomico da escola,15- Muito Baixo
+,,,,16 - Baixo
+,,,,17 - Médio Baixo
+,,,,18 - Médio
+,,,,19 - Médio Alto
+,,,,20 - Alto
+,,,,21 - Muito Alto
+NU_MATRICULADOS_CENSO,Num,3,Número de alunos matriculados no 3º ano do ensino fundamental de 9 anos no censo 2016,
+NU_PRESENTES_LP,Num,3,"Número de alunos, que estavam presentes no dia da aplicação dos testes de Língua Portuguesa (Leitura e Escrita) da ANA",
+NU_VALIDOS_LP,Num,3,"Número de alunos do no 3º ano, que responderam a três ou mais questões dos testes de Língua Portuguesa  (Leitura) da ANA",
+TAXA_PARTICIPACAO_LP,Num,5,Taxa de participação nos testes de Matemática calculada pela razão entre o total de alunos presentes na ANA (NU_PRESENTES_LP) e o total de alunos cadastrados no Censo Escolar que são público alvo da ANA (NU_MATRICULADOS_CENSO),
+MEDIA_LPO,Num,6,Média em Leitura em Língua Portuguesa,
+Nivel_1_LPO,Num,5,Percentual de estudantes com proficiência menor ou igual a 425 pontos,
+Nivel_2_LPO,Num,5,Percentual de estudantes com proficiencia maior que 425 e menor ou igual a 525 pontos,
+Nivel_3_LPO,Num,5,Percentual de estudantes com proficiencia maior que 525 e menor ou igual a 625 pontos,
+Nivel_4_LPO,Num,5,Percentual de estudantes com proficiencia maior que 625 pontos,
+ESC_SIM_N1_LPO,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência menor ou igual a 425 pontos,
+ESC_SIM_N2_LPO,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiencia maior que 425 e menor ou igual a 525 pontos,
+ESC_SIM_N3_LPO,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiencia maior que 525 e menor ou igual a 625 pontos,
+ESC_SIM_N4_LPO,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiencia maior que 625 pontos,
+MEDIA_LPD,Num,6,Média em Escrita em Língua Portuguesa,
+Nivel_1_LPD,Num,5,Percentual de estudantes com proficiência menor que 350 pontos,
+Nivel_2_LPD,Num,5,Percentual de estudantes com proficiência maior ou igual a 350 e menor que 450 pontos,
+Nivel_3_LPD,Num,5,Percentual de estudantes com proficiência maior ou igual a 450 e menor que 500 pontos,
+Nivel_4_LPD,Num,5,Percentual de estudantes com proficiência maior ou igual a 500 e menor que 600 pontos,
+Nivel_5_LPD,Num,5,Percentual de estudantes com proficiência maior ou igual a 600 pontos,
+ESC_SIM_N1_LPD,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência menor que 350 pontos,
+ESC_SIM_N2_LPD,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência maior ou igual a 350 e menor que 450 pontos,
+ESC_SIM_N3_LPD,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência maior ou igual a 450 e menor que 500 pontos,
+ESC_SIM_N4_LPD,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência maior ou igual a 500 e menor que 600 pontos,
+ESC_SIM_N5_LPD,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência maior ou igual a 600 pontos,
+NU_PRESENTES_MT,Num,3,"Número de alunos do no 3º ano, que estavam presentes no dia da aplicação dos testes de Matemática da ANA",
+NU_VALIDOS_MT,Num,3,"Número de alunos do no 3º ano, que responderam a três ou mais questões dos testes de Matemática da ANA",
+TAXA_PARTICIPACAO_MT,Num,5,Taxa de participação nos testes de Matemática calculada pela razão entre o total de alunos presentes na ANA (QT_ALUNO_PRESENTE_MT) e o total de alunos cadastrados no Censo Escolar que são público alvo da ANA (NU_MATRICULADOS_CENSO),
+MEDIA_MT,Num,6,Média em Matemática,
+Nivel_1_MT,Num,5,Percentual de estudantes com proficiência menor ou igual a 425 pontos,
+Nivel_2_MT,Num,5,Percentual de estudantes com proficiência maior que 425 e menor ou igual a 525 pontos,
+Nivel_3_MT,Num,5,Percentual de estudantes com proficiência maior que 525 e menor ou igual a 575 pontos,
+Nivel_4_MT,Num,5,Percentual de estudantes com proficiência maior que 575 pontos,
+ESC_SIM_N1_MT,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência menor ou igual a 425 pontos,
+ESC_SIM_N2_MT,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência maior que 425 e menor ou igual a 525 pontos,
+ESC_SIM_N3_MT,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência maior que 525 e menor ou igual a 575 pontos,
+ESC_SIM_N4_MT,Num,5,Percentual de estudantes do Perfil de Escola Similar com proficiência maior que 575 pontos,
+"1 - Os códigos dos Municípios e das Escolas que começam com o dígito ""6"" são máscaras, isto é, são códigos fictícios.",,,,
